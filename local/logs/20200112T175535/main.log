@@ -1,3 +1,13 @@
 [2020-01-12 17:55:35.919] [main] [info] update#setState idle
 [2020-01-12 17:56:05.922] [main] [info] update#setState checking for updates
 [2020-01-12 17:56:06.023] [main] [info] update#setState idle
+[2020-01-12 18:56:05.929] [main] [info] update#setState checking for updates
+[2020-01-12 18:56:06.312] [main] [info] update#setState idle
+[2020-01-12 19:56:05.949] [main] [info] update#setState checking for updates
+[2020-01-12 19:56:06.349] [main] [info] update#setState idle
+[2020-01-12 20:56:05.973] [main] [info] update#setState checking for updates
+[2020-01-12 20:56:15.992] [main] [error] Error: net::ERR_NAME_RESOLUTION_FAILED
+[2020-01-12 20:56:15.992] [main] [info] update#setState idle
+[2020-01-12 21:56:05.987] [main] [info] update#setState checking for updates
+[2020-01-12 21:56:16.002] [main] [error] Error: net::ERR_NAME_RESOLUTION_FAILED
+[2020-01-12 21:56:16.002] [main] [info] update#setState idle
