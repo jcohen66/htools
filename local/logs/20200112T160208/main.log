@@ -1,6 +1,0 @@
-[2020-01-12 16:02:08.118] [main] [info] update#setState idle
-[2020-01-12 16:02:38.130] [main] [info] update#setState checking for updates
-[2020-01-12 16:02:38.228] [main] [info] update#setState idle
-[2020-01-12 17:02:38.156] [main] [info] update#setState checking for updates
-[2020-01-12 17:02:41.245] [main] [error] Error: net::ERR_ADDRESS_UNREACHABLE
-[2020-01-12 17:02:41.245] [main] [info] update#setState idle

@@ -90,7 +90,8 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
@@ -162,7 +163,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -554,7 +556,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -563,7 +566,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1402,19 +1406,5 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#282c34",
-    "windowsState": {
-        "lastActiveWindow": {
-            "folder": "file:///root/Code/py/htools",
-            "backupPath": "/root/Code/py/htools/local/Backups/2b3643b68944ea10f3b131f6a1f44794",
-            "uiState": {
-                "mode": 1,
-                "x": 278,
-                "y": 94,
-                "width": 1024,
-                "height": 768
-            }
-        },
-        "openedWindows": []
-    }
+    "themeBackground": "#1e1e1e"
 }
