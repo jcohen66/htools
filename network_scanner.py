@@ -5,12 +5,13 @@ import optparse
 
 def get_arguments():
     parser = optparse.OptionParser()
-    parser.add_option('-i', '--iprange', dest='ip', help='IP or range to scan.')
+    parser.add_option('-t', '--target', dest='ip', help='IP or range to scan.')
     (options, arguments) = parser.parse_args()
     if not options.ip:
         parser.error('[-] Please specify an ip or range. Use --help for more info.')
 
     return options
+
 
 def scan(ip):
     # Use ARP to ask who has target IP
