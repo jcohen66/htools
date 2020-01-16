@@ -96,3 +96,11 @@ fatal: There is no path arp_spoof.py in the commit
 	at ChildProcess.emit (events.js:200:13)
 	at maybeClose (internal/child_process.js:1021:16)
 	at Process.ChildProcess._handle.onexit (internal/child_process.js:283:5)
+[2020-01-14 22:52:40.574] [exthost] [error] [ms-python.python] provider FAILED
+[2020-01-14 22:52:40.575] [exthost] [error] TypeError [ERR_INVALID_ARG_VALUE]: The argument 'file' cannot be empty. Received ''
+	at normalizeSpawnArguments (child_process.js:409:11)
+	at Object.spawn (child_process.js:542:16)
+	at l.exec (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:438194)
+	at h.getFullyQualifiedPathToInterpreter (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184931)
+	at async h.detectShebang (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184467)
+	at async h.createShebangCodeLens (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1185019)
