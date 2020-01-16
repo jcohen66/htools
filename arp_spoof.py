@@ -11,9 +11,10 @@ import optparse
 
 def get_arguments():
     parser = optparse.OptionParser()
-    parser.add_option('-t', '--target_ip', dest='target_ip', help='Target IP.')
+    parser.add_option('-t', '--target_ip', dest='target_ip',
+                      help='Target IP.  \nRun: echo 1 > /proc/sys/net/ipv4/ip_forward')
     parser.add_option('-g', '--gateway_ip', dest='gateway_ip',
-                      help='Gateway Router IP.')
+                      help='Gateway Router IP.  \nRun: echo 1 > /proc/sys/net/ipv4/ip_forward')
     (options, arguments) = parser.parse_args()
     if not options.target_ip:
         parser.error(

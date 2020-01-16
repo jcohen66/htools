@@ -1265,3 +1265,5 @@ cwd: ~/Code/py/htools
 ------------------------------------------------------------------
 Your code has been rated at 9.72/10 (previous run: 5.56/10, +4.17)
 
+> /usr/bin/env python3 -c "import sys;print(sys.executable)"
+> ~/Code/py/htools/bin/python -c "import sys;print(sys.executable)"
