@@ -1,0 +1,21 @@
+[2020-01-16 20:57:20.134] [renderer1] [error] The argument 'file' cannot be empty. Received '': TypeError [ERR_INVALID_ARG_VALUE]: The argument 'file' cannot be empty. Received ''
+	at normalizeSpawnArguments (child_process.js:409:11)
+	at Object.spawn (child_process.js:542:16)
+	at l.exec (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:438194)
+	at h.getFullyQualifiedPathToInterpreter (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184931)
+	at async h.detectShebang (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184467)
+	at async h.createShebangCodeLens (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1185019)
+[2020-01-16 20:57:21.440] [renderer1] [error] The argument 'file' cannot be empty. Received '': TypeError [ERR_INVALID_ARG_VALUE]: The argument 'file' cannot be empty. Received ''
+	at normalizeSpawnArguments (child_process.js:409:11)
+	at Object.spawn (child_process.js:542:16)
+	at l.exec (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:438194)
+	at h.getFullyQualifiedPathToInterpreter (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184931)
+	at async h.detectShebang (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184467)
+	at async h.createShebangCodeLens (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1185019)
+[2020-01-16 20:57:22.555] [renderer1] [error] The argument 'file' cannot be empty. Received '': TypeError [ERR_INVALID_ARG_VALUE]: The argument 'file' cannot be empty. Received ''
+	at normalizeSpawnArguments (child_process.js:409:11)
+	at Object.spawn (child_process.js:542:16)
+	at l.exec (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:438194)
+	at h.getFullyQualifiedPathToInterpreter (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184931)
+	at async h.detectShebang (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184467)
+	at async h.createShebangCodeLens (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1185019)

@@ -1,3 +1,4 @@
+file:///root/Code/py/htools/arp_spoof.py {"mtime":1579229344372,"ctime":1579050329863,"size":2413,"etag":"34frkcd6k2fq","orphaned":false}
 #!/usr/bin/env python3
 
 # must enable ip forwarding on the target:
@@ -53,7 +54,7 @@ def restore(destination_ip, source_ip):
     scapy.send(packet, count=4,)
 
 
-# Turn on packet forwarding
+# Turn on packet forwardings
 os.system('echo 1 > /proc/sys/net/ipv4/ip_forward')
 
 options = get_arguments()

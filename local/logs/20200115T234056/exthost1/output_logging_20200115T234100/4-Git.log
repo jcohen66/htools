@@ -6,13 +6,93 @@ Open repository: /root/Code/py/htools
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
+> git show :arp_spoof.py
 > git rev-parse --symbolic-full-name master@{u}
 > git rev-list --left-right master...refs/remotes/origin/master
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
-> git show :network_scanner.py
 > git config --get commit.template
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
@@ -38,6 +118,7 @@ Open repository: /root/Code/py/htools
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
+> git check-ignore -v -z --stdin
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
@@ -94,6 +175,7 @@ Open repository: /root/Code/py/htools
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
+> git show :mac_changer.py
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
@@ -102,102 +184,9 @@ Open repository: /root/Code/py/htools
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
+> git show :packet_sniffer.py
+> git show :network_scanner.py
+> git show :mac_changer.py
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
@@ -207,6 +196,7 @@ Open repository: /root/Code/py/htools
 > git remote --verbose
 > git config --get commit.template
 > git show :network_scanner.py
+> git show :start_code.py
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
@@ -215,24 +205,7 @@ Open repository: /root/Code/py/htools
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git check-ignore -v -z --stdin
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git check-ignore -v -z --stdin
+> git show :packet_sniffer.py
 > git status -z -u
 > git symbolic-ref --short HEAD
 > git rev-parse master
@@ -289,53 +262,4 @@ Open repository: /root/Code/py/htools
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
-> git show :arp_spoof.py
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
-> git status -z -u
-> git show :arp_spoof.py
-> git symbolic-ref --short HEAD
-> git rev-parse master
-> git rev-parse --symbolic-full-name master@{u}
-> git rev-list --left-right master...refs/remotes/origin/master
-> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
-> git remote --verbose
-> git config --get commit.template
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
