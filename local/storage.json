@@ -382,8 +382,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -842,7 +841,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1191,9 +1191,8 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G G",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+g g"
+                "label": "Ctrl+Shift+G",
+                "userSettingsLabel": "ctrl+shift+g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
