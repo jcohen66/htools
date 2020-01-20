@@ -18,3 +18,5 @@
 [2020-01-19 22:21:45.393] [main] [info] update#setState checking for updates
 [2020-01-19 22:22:13.472] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
 [2020-01-19 22:22:13.472] [main] [info] update#setState idle
+[2020-01-20 09:37:00.244] [main] [info] update#setState checking for updates
+[2020-01-20 09:37:00.799] [main] [info] update#setState idle

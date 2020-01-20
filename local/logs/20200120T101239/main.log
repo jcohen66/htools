@@ -1,0 +1,6 @@
+[2020-01-20 10:12:39.597] [main] [info] update#setState idle
+[2020-01-20 10:13:09.612] [main] [info] update#setState checking for updates
+[2020-01-20 10:13:41.592] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
+[2020-01-20 10:13:41.592] [main] [info] update#setState idle
+[2020-01-20 11:13:09.645] [main] [info] update#setState checking for updates
+[2020-01-20 11:13:10.117] [main] [info] update#setState idle
