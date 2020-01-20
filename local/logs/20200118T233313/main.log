@@ -1,3 +1,20 @@
 [2020-01-18 23:33:13.294] [main] [info] update#setState idle
 [2020-01-18 23:33:43.300] [main] [info] update#setState checking for updates
 [2020-01-18 23:33:43.421] [main] [info] update#setState idle
+[2020-01-19 12:57:05.663] [main] [info] update#setState checking for updates
+[2020-01-19 12:57:06.282] [main] [info] update#setState idle
+[2020-01-19 13:57:05.675] [main] [info] update#setState checking for updates
+[2020-01-19 13:57:06.163] [main] [info] update#setState idle
+[2020-01-19 14:57:05.705] [main] [info] update#setState checking for updates
+[2020-01-19 14:57:06.255] [main] [info] update#setState idle
+[2020-01-19 16:18:30.592] [main] [info] update#setState checking for updates
+[2020-01-19 16:18:31.253] [main] [info] update#setState idle
+[2020-01-19 19:13:54.287] [main] [info] update#setState checking for updates
+[2020-01-19 19:13:55.036] [main] [info] update#setState idle
+[2020-01-19 20:21:45.346] [main] [info] update#setState checking for updates
+[2020-01-19 20:21:45.928] [main] [info] update#setState idle
+[2020-01-19 21:21:45.358] [main] [info] update#setState checking for updates
+[2020-01-19 21:21:45.955] [main] [info] update#setState idle
+[2020-01-19 22:21:45.393] [main] [info] update#setState checking for updates
+[2020-01-19 22:22:13.472] [main] [error] Error: net::ERR_NAME_NOT_RESOLVED
+[2020-01-19 22:22:13.472] [main] [info] update#setState idle
