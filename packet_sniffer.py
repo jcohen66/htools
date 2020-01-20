@@ -67,9 +67,10 @@ def process_sniffed_packet(packet):
 
     if packet.haslayer(scapy.IP):
         source_ip = packet[scapy.IP].src
-        if source_ip == '10.0.2.15':
-            # print(packet.show())
-            pass
+        print(packet.show())
+        # if source_ip == '10.0.2.15':
+        #     print(packet.show())
+        #     pass
 
     if packet.haslayer(http.HTTPRequest):
         http_header(packet)
