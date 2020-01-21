@@ -3508,3 +3508,12 @@ fatal: no upstream configured for branch 'code-injector'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git show :evil/execute_command.py
+> git symbolic-ref --short HEAD
+> git rev-parse code-injector
+> git rev-parse --symbolic-full-name code-injector@{u}
+fatal: no upstream configured for branch 'code-injector'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
