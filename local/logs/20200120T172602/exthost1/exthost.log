@@ -22,3 +22,5 @@
 [2020-01-20 17:26:09.986] [exthost] [info] ExtensionService#_doActivateExtension TabNine.tabnine-vscode {"startup":true,"extensionId":{"value":"TabNine.tabnine-vscode","_lower":"tabnine.tabnine-vscode"},"activationEvent":"*"}
 [2020-01-20 17:26:09.986] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/tabnine.tabnine-vscode-2.1.22/out/extension
 [2020-01-20 17:26:10.007] [exthost] [info] eager extensions activated
+[2020-01-20 18:59:06.878] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-01-20 18:59:06.883] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
