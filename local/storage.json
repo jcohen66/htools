@@ -1191,8 +1191,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1407,10 +1408,10 @@
             "backupPath": "/root/Code/py/htools/local/Backups/2b3643b68944ea10f3b131f6a1f44794",
             "uiState": {
                 "mode": 1,
-                "x": 303,
-                "y": 59,
-                "width": 954,
-                "height": 741
+                "x": 131,
+                "y": 127,
+                "width": 1024,
+                "height": 768
             }
         },
         "openedWindows": []
