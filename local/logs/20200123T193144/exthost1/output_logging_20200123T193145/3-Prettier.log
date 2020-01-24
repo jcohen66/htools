@@ -1,6 +1,6 @@
-["INFO" - 5:51:14 PM] Extension Name: "prettier-vscode".
-["INFO" - 5:51:14 PM] Extension Version: "3.18.0".
-["INFO" - 5:51:14 PM] Enabling prettier for languages
+["INFO" - 7:31:45 PM] Extension Name: "prettier-vscode".
+["INFO" - 7:31:45 PM] Extension Version: "3.18.0".
+["INFO" - 7:31:45 PM] Enabling prettier for languages
 [
   "css",
   "graphql",
@@ -21,7 +21,7 @@
   "vue",
   "yaml"
 ]
-["INFO" - 5:51:14 PM] Enabling prettier for range supported languages
+["INFO" - 7:31:45 PM] Enabling prettier for range supported languages
 [
   "graphql",
   "javascript",
