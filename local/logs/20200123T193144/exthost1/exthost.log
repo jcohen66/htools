@@ -28,3 +28,5 @@
 [2020-01-23 19:31:46.335] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/python/dist/pythonMain
 [2020-01-23 19:31:46.337] [exthost] [info] ExtensionService#_doActivateExtension ms-python.python {"startup":false,"extensionId":{"value":"ms-python.python","_lower":"ms-python.python"},"activationEvent":"onLanguage:python"}
 [2020-01-23 19:31:46.337] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension
+[2020-01-23 20:23:06.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-01-23 20:23:06.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
