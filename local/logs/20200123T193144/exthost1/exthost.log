@@ -30,3 +30,11 @@
 [2020-01-23 19:31:46.337] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension
 [2020-01-23 20:23:06.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2020-01-23 20:23:06.148] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-01-23 21:06:39.312] [exthost] [error] [ms-python.python] provider FAILED
+[2020-01-23 21:06:39.313] [exthost] [error] TypeError: Cannot read property 'length' of null
+	at t.ItemInfoSource.getSignature (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:631883)
+	at /root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:630731
+	at Array.forEach (<anonymous>)
+	at t.ItemInfoSource.getItemInfoFromHoverResult (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:630706)
+	at t.ItemInfoSource.getItemInfoFromText (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:629686)
+	at async l.resolveCompletionItem (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:68:108721)
