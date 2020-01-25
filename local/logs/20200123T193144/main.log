@@ -8,3 +8,5 @@
 [2020-01-25 09:50:25.892] [main] [info] update#setState checking for updates
 [2020-01-25 09:50:35.909] [main] [error] Error: net::ERR_NAME_RESOLUTION_FAILED
 [2020-01-25 09:50:35.909] [main] [info] update#setState idle
+[2020-01-25 12:56:46.648] [main] [info] update#setState checking for updates
+[2020-01-25 12:56:47.096] [main] [info] update#setState idle

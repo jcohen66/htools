@@ -1,2 +1,0 @@
-[2020-01-18 13:34:02.520] [renderer1] [error] Unable to read file (Error: File not found (/root/Code/py/htools/capture.txt)): Error: Unable to read file (Error: File not found (/root/Code/py/htools/capture.txt))
-    at _.doReadAsFileStream (file:///usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1591:434)
