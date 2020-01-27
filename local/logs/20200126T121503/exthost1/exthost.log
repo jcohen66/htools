@@ -30,3 +30,11 @@
 [2020-01-26 12:15:06.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension
 [2020-01-26 12:16:27.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2020-01-26 12:16:27.313] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-01-26 12:37:53.749] [exthost] [error] [ms-python.python] provider FAILED
+[2020-01-26 12:37:53.749] [exthost] [error] TypeError [ERR_INVALID_ARG_VALUE]: The argument 'file' cannot be empty. Received ''
+	at normalizeSpawnArguments (child_process.js:409:11)
+	at Object.spawn (child_process.js:542:16)
+	at l.exec (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:1:438194)
+	at h.getFullyQualifiedPathToInterpreter (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184931)
+	at async h.detectShebang (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1184467)
+	at async h.createShebangCodeLens (/root/.vscode/extensions/ms-python.python-2020.1.58038/out/client/extension.js:75:1185019)
