@@ -20,7 +20,7 @@ class Listener:
         print('************************')
 
     def reliable_send(self, data):
-        json_data = json.dumps(data.decode('utf-8'))
+        json_data = json.dumps(data)
         print(json_data)
         self.connection.send(json_data.encode('ASCII'))
 
@@ -35,11 +35,15 @@ class Listener:
 
     def execute_remotely(self, command):
         self.reliable_send(command)
+        if command[0] == 'exit':
+            self.connection.close()
+            exit()
         return self.reliable_recieve()
 
     def run(self):
         while True:
-            command = input('>> ').encode('ASCII')
+            command = input('>> ')
+            command = command.split(' ')
             result = self.execute_remotely(command)
             print(result)
 
