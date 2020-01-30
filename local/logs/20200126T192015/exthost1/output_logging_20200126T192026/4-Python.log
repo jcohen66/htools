@@ -2187,3 +2187,7 @@ cwd: ~/Code/py/htools
 --------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
 
+> /bin/python3 ~/.vscode/extensions/ms-python.python-2020.1.58038/pythonFiles/interpreterInfo.py
+> /bin/python3 ~/.vscode/extensions/ms-python.python-2020.1.58038/pythonFiles/interpreterInfo.py
+> /usr/bin/env python -c "import sys;print(sys.executable)"
+> /bin/python3 -c "import sys;print(sys.executable)"
