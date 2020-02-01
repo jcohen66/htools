@@ -33,4 +33,7 @@ for form in forms_list:
         post_data[input_name] = input_value
 
     result = requests.post(post_url, data=post_data)
-    print(result.content)
+    if 'Results for test' in result.content.decode('utf-8'):
+        print('[+] Successfully executed')
+    else:
+        print('[-] Failed to execute.')

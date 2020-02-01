@@ -1,0 +1,11 @@
+[2020-01-31 23:51:03.756] [renderer1] [error] Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n2 --follow -L 19,19:extract_forms.py -- extract_forms.py
+fatal: There is no path extract_forms.py in the commit
+: Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n2 --follow -L 19,19:extract_forms.py -- extract_forms.py
+fatal: There is no path extract_forms.py in the commit
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:200:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:430:11)
+	at Socket.emit (events.js:200:13)
+	at Pipe.<anonymous> (net.js:586:12)

@@ -1,0 +1,32 @@
+["INFO" - 9:41:41 AM] Extension Name: "prettier-vscode".
+["INFO" - 9:41:41 AM] Extension Version: "3.20.0".
+["INFO" - 9:41:41 AM] Enabling prettier for languages
+[
+  "css",
+  "graphql",
+  "html",
+  "javascript",
+  "javascriptreact",
+  "json",
+  "json5",
+  "jsonc",
+  "less",
+  "markdown",
+  "mdx",
+  "mongo",
+  "postcss",
+  "scss",
+  "typescript",
+  "typescriptreact",
+  "vue",
+  "yaml"
+]
+["INFO" - 9:41:41 AM] Enabling prettier for range supported languages
+[
+  "graphql",
+  "javascript",
+  "javascriptreact",
+  "json",
+  "typescript",
+  "typescriptreact"
+]

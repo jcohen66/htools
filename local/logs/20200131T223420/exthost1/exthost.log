@@ -28,3 +28,33 @@
 [2020-01-31 22:34:23.317] [exthost] [info] eager extensions activated
 [2020-01-31 23:11:38.155] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
 [2020-01-31 23:11:38.156] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2020-01-31 23:51:03.753] [exthost] [error] [eamodio.gitlens] provider FAILED
+[2020-01-31 23:51:03.753] [exthost] [error] Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n2 --follow -L 19,19:extract_forms.py -- extract_forms.py
+fatal: There is no path extract_forms.py in the commit
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:200:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:430:11)
+	at Socket.emit (events.js:200:13)
+	at Pipe.<anonymous> (net.js:586:12)
+[2020-01-31 23:51:04.124] [exthost] [error] [eamodio.gitlens] provider FAILED
+[2020-01-31 23:51:04.125] [exthost] [error] Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n2 --follow -L 19,19:extract_forms.py -- extract_forms.py
+fatal: There is no path extract_forms.py in the commit
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:200:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:430:11)
+	at Socket.emit (events.js:200:13)
+	at Pipe.<anonymous> (net.js:586:12)
+[2020-01-31 23:51:04.468] [exthost] [error] [eamodio.gitlens] provider FAILED
+[2020-01-31 23:51:04.468] [exthost] [error] Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n2 --follow -L 19,19:extract_forms.py -- extract_forms.py
+fatal: There is no path extract_forms.py in the commit
+
+	at ChildProcess.exithandler (child_process.js:303:12)
+	at ChildProcess.emit (events.js:200:13)
+	at maybeClose (internal/child_process.js:1021:16)
+	at Socket.<anonymous> (internal/child_process.js:430:11)
+	at Socket.emit (events.js:200:13)
+	at Pipe.<anonymous> (net.js:586:12)

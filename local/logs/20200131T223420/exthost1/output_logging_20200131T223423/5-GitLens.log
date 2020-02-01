@@ -1,0 +1,4 @@
+[2020-02-01 04:51:03:753] ChildProcess.exithandler
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n2 --follow -L 19,19:extract_forms.py -- extract_forms.py
+fatal: There is no path extract_forms.py in the commit
+
