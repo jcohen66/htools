@@ -1,2 +1,0 @@
-[2020-01-25 13:13:26.118] [renderer1] [error] File not found (/root/Code/py/htools/attractive-woman-speaking-smartphone_23-2147848964.jpg): EntryNotFound (FileSystemError): File not found (/root/Code/py/htools/attractive-woman-speaking-smartphone_23-2147848964.jpg)
-	at _handleError (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:564:139)
