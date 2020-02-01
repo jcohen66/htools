@@ -1,0 +1,86 @@
+file:///root/Code/py/htools/sample.html {"mtime":1580581282624,"ctime":1580581282624,"size":0,"etag":"34i6hpln30","orphaned":false}
+<!doctype html public "-//w3c//dtd xhtml 1.0 strict//en" "http://www.w3.org/tr/xhtml1/dtd/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<title>damn vulnerable web app (dvwa) v1.0.7 :: vulnerability: reflected cross site scripting (xss)</title>
+
+		<link rel="stylesheet" type="text/css" href="../../dvwa/css/main.css" />
+
+		<link rel="icon" type="\image/ico" href="../../favicon.ico" />
+
+		<script type="text/javascript" src="../../dvwa/js/dvwapage.js"></script>
+
+	</head>
+
+	<body class="home">
+		<div id="container">
+
+			<div id="header">
+
+				<img src="../../dvwa/images/logo.png" alt="damn vulnerable web app" />
+
+			</div>
+
+			<div id="main_menu">
+
+				<div id="main_menu_padded">
+				<ul><li onclick="window.location='../../.'" class=""><a href="../../.">home</a></li><li onclick="window.location='../../instructions.php'" class=""><a href="../../instructions.php">instructions</a></li><li onclick="window.location='../../setup.php'" class=""><a href="../../setup.php">setup</a></li></ul><ul><li onclick="window.location='../../vulnerabilities/brute/.'" class=""><a href="../../vulnerabilities/brute/.">brute force</a></li><li onclick="window.location='../../vulnerabilities/exec/.'" class=""><a href="../../vulnerabilities/exec/.">command execution</a></li><li onclick="window.location='../../vulnerabilities/csrf/.'" class=""><a href="../../vulnerabilities/csrf/.">csrf</a></li><li onclick="window.location='../../vulnerabilities/fi/.?page=include.php'" class=""><a href="../../vulnerabilities/fi/.?page=include.php">file inclusion</a></li><li onclick="window.location='../../vulnerabilities/sqli/.'" class=""><a href="../../vulnerabilities/sqli/.">sql injection</a></li><li onclick="window.location='../../vulnerabilities/sqli_blind/.'" class=""><a href="../../vulnerabilities/sqli_blind/.">sql injection (blind)</a></li><li onclick="window.location='../../vulnerabilities/upload/.'" class=""><a href="../../vulnerabilities/upload/.">upload</a></li><li onclick="window.location='../../vulnerabilities/xss_r/.'" class="selected"><a href="../../vulnerabilities/xss_r/.">xss reflected</a></li><li onclick="window.location='../../vulnerabilities/xss_s/.'" class=""><a href="../../vulnerabilities/xss_s/.">xss stored</a></li></ul><ul><li onclick="window.location='../../security.php'" class=""><a href="../../security.php">dvwa security</a></li><li onclick="window.location='../../phpinfo.php'" class=""><a href="../../phpinfo.php">php info</a></li><li onclick="window.location='../../about.php'" class=""><a href="../../about.php">about</a></li></ul><ul><li onclick="window.location='../../logout.php'" class=""><a href="../../logout.php">logout</a></li></ul>
+				</div>
+
+			</div>
+
+			<div id="main_body">
+
+				
+<div class="body_padded">
+	<h1>vulnerability: reflected cross site scripting (xss)</h1>
+
+	<div class="vulnerable_code_area">
+
+		<form name="xss" action="#" method="get">
+			<p>what's your name?</p>
+			<input type="text" name="name">
+			<input type="submit" value="submit">
+		</form>
+
+		<pre>hello test</pre>
+
+	</div>
+
+	<h2>more info</h2>
+
+	<ul>
+		<li><a href="http://hiderefer.com/?http://ha.ckers.org/xss.html" target="_blank">http://ha.ckers.org/xss.html</a></li>
+		<li><a href="http://hiderefer.com/?http://en.wikipedia.org/wiki/cross-site_scripting" target="_blank">http://en.wikipedia.org/wiki/cross-site_scripting</a></li>
+		<li><a href="http://hiderefer.com/?http://www.cgisecurity.com/xss-faq.html" target="_blank">http://www.cgisecurity.com/xss-faq.html</a></li>
+	</ul>
+</div>
+
+				<br />
+				<br />
+				
+
+			</div>
+
+			<div class="clear">
+			</div>
+
+			<div id="system_info">
+				<input type="button" value="view help" class="popup_button" onclick="javascript:popup( '../../vulnerabilities/view_help.php?id=xss_r&security=medium' )"> <input type="button" value="view source" class="popup_button" onclick="javascript:popup( '../../vulnerabilities/view_source.php?id=xss_r&security=medium' )"> <div align="left"><b>username:</b> admin<br /><b>security level:</b> medium<br /><b>phpids:</b> disabled</div>
+			</div>
+
+			<div id="footer">
+
+				<p>damn vulnerable web application (dvwa) v1.0.7</p>
+
+			</div>
+
+		</div>
+
+	</body>
+
+</html>
