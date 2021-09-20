@@ -82,7 +82,7 @@ matplotlib==3.0.2
 maxminddb==1.4.1
 mccabe==0.6.1
 mechanize==0.4.3
-mitmproxy==4.0.4
+mitmproxy==7.0.3
 msgpack==0.5.6
 mysqlclient==1.4.4
 nassl==2.2.0
