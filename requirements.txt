@@ -27,7 +27,7 @@ dbus-python==1.2.12
 debtags==2.1
 decorator==4.3.0
 dicttoxml==1.7.4
-dnslib==0.9.10
+dnslib==0.9.17
 dnspython==1.16.0
 ecdsa==0.13.3
 email-validator==1.0.3
