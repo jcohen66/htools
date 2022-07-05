@@ -108,7 +108,7 @@ psutil==5.6.7
 psycopg2==2.8.4
 pyasn1==0.4.2
 pycairo==1.16.2
-pycares==2.1.1
+pycares==4.2.0
 pycodestyle==2.5.0
 pycrypto==2.6.1
 pycryptodomex==3.6.1
