@@ -14,7 +14,7 @@ binwalk==2.2.0
 blinker==1.4
 boltons==19.1.0
 Brotli==1.0.7
-certifi==2018.8.24
+certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 click-plugins==1.1.1
